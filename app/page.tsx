@@ -1,7 +1,6 @@
-import Image from 'next/image';
+import { HiOutlineTicket } from 'react-icons/hi';
 import Card from './components/Card';
 
-import { HiOutlineTicket, HiOutlineUsers } from 'react-icons/hi';
 export default function Home() {
   return (
     <main className="w-full min-h-screen mx-auto py-6 sm:px-6 lg:px-8 lg:py-5">
