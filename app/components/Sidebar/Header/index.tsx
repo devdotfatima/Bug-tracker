@@ -10,7 +10,7 @@ const Header = ({ setShowSidebar }: HeaderProps) => {
     setProfileMenuVisibility(!profileMenuVisibility);
   };
   return (
-    <div className="flex gap-4 items-center justify-between p-5  w-full bg-slate-900 h-14 text-slate-400  ">
+    <div className="flex gap-4 items-center justify-between p-5  w-full bg-slate-900 h-14 text-slate-400 shadow-slate-900 shadow-md  ">
       <div className="lg:hidden">
         <BiMenu
           className="text-2xl hover:text-slate-100 hover:ring ring-slate-300 rounded cursor-pointer duration-300"
@@ -18,8 +18,8 @@ const Header = ({ setShowSidebar }: HeaderProps) => {
         />
       </div>
       <div className="">
-        <div className="text-2xl font-bold font-mono uppercase text-white p-1 ">
-          🐛Tracker
+        <div className="text-2xl font-bold font-mono uppercase  p-1 ">
+          🐞Tracker
         </div>
       </div>
 
